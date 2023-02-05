@@ -1,0 +1,168 @@
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.bgvideo img {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.fon_2 {
+    height: 20vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fon_2 img {
+    height: 14vw;
+    width: 95%;
+    position: absolute;
+    top: 2.5vw;
+    left: 2.5vw;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+.effect-2 {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(36, 36, 36, 0.281);
+}
+
+.effect_2 {
+    height: 6.3vw;
+    width: 53.7vw;
+    position: absolute;
+    top: 18.06vw;
+    left: 2.75vw;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(82, 80, 80, 0.671);
+}
+
+.effect_3 {
+    height: 14vw;
+    width: 95%;
+    position: absolute;
+    top: 2.5vw;
+    left: 2.5vw;
+    right: 2.5vw;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+.effect_4 {
+    padding: 7px;
+    width: 90%;
+    object-fit: cover;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.text-center span {
+    z-index: 2;
+    color: whitesmoke !important;
+}
+
+.video-text {
+    color: whitesmoke;
+    z-index: 2;
+}
+
+.video-text_2 {
+    color: whitesmoke;
+    font-size: 5vw;
+    z-index: 2;
+}
+
+.img-text {
+    color: whitesmoke;
+    z-index: 3;
+
+}
+
+.text-1 {
+    object-fit: cover;
+    position: absolute;
+    top: 18.35vw;
+    left: 3.35vw;
+    font-size: 2.4vw;
+    z-index: 3;
+    color: whitesmoke;
+}
+
+.text-2 {
+    object-fit: cover;
+    position: absolute;
+    top: 21.8vw;
+    left: 3.7vw;
+    font-size: 1.35vw;
+    z-index: 3;
+    color: whitesmoke;
+}
+
+.text-3 {
+    object-fit: cover;
+    position: absolute;
+    justify-content: center;
+    align-items: Justify;
+    top: 4vw;
+    left: 4vw;
+    right: 4vw;
+    font-size: 1vw;
+    z-index: 3;
+    color: rgb(83, 83, 83);
+}
+
+.text_3 {
+    object-fit: cover;
+    position: absolute;
+    justify-content: center;
+    align-items: Justify;
+    top: 12.3vw;
+    left: 4vw;
+    right: 4vw;
+    font-size: 1vw;
+    z-index: 3;
+    color: rgb(83, 83, 83);
+}

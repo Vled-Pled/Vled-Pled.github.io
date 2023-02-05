@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Cursive&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: Cursive, serif;
+    background:rgb(255, 255, 255)
+}
+
+header#color {
+    background-color: #424242 !important;
+}
+
+.navbar-brand {
+    padding: 0;
+    padding-left: 60px;
+}
+
+.navbar-brand span {
+    padding-left: 22px;
+    font-size: 30px;
+}
+
+#navbarNav {
+    padding-right: 60px;
+    font-size: 23px;
+}
+
+p {
+    color: rgb(95, 95, 95);
+}
+
+.nav-link {
+    color:whitesmoke;
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(141, 139, 139);
+
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+
+.navbar-toggler {
+    background-color: rgb(167, 163, 163);
+}
+
+.carousel-inner img {
+    height: 100% !important;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+.sidebar {
+    padding: 1.5%;
+   background-color: rgba(54, 54, 54, 0.938);
+}
+
+.sidebar p, h3 {
+   color: rgba(245, 245, 245, 0.979);
+ }
+
+.footer-text {
+    color: whitesmoke !important;
+    margin: auto auto;
+}
+
+
+footer,
+.btn-outline-primary {
+    background: #424242;
+
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+.hr-horizontal-gradient {
+	margin: 20px 0;
+	padding: 0;
+	height: 10px;
+	border: none;
+	background: linear-gradient(45deg, #252525, #cccccc);
+}
+
+.start-model {
+    color:rgb(73, 73, 73);
+    padding: 2vw;
+    padding-left: 4vw;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
